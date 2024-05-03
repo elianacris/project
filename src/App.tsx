@@ -1,14 +1,8 @@
 import "./App.css";
+import { Router } from "./routes/routes";
 
 function App() {
-  return (
-    <div>
-      <a href="https://example.com" rel="noopener">
-        Link
-      </a>
-      <p>Hello word</p>
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
